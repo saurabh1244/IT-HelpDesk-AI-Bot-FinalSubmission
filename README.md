@@ -1,19 +1,21 @@
-# IT Help Desk Voice Bot 
+# IT Help Desk Voice Bot 🤖
 
 A full-stack voice AI assistant designed to modernize IT support. The bot handles the entire ticket lifecycle—greeting the caller, identifying issues, collecting details, enforcing business rules, and sending email confirmations—through a natural voice conversation.
 
+![IT Help Desk Voice Bot Interface](screenshots/ss1.png)
+
 ---
 
-##  Project Links
+## 🔗 Project Links
 
 - **Live Interface:** [voicebot.xiorabh.com](https://voicebot.xiorabh.com)
 - **Video Demo:** [Insert Your Loom Video Link Here]
-- **Frontend Repository:** [Help Desk Voice Bot Frontend](https://github.com/saurabh1244/Help_Desk_Voice_Bot_Frontend)
+- **Frontend Repository:** [Help Desk Voice Bot Frontend](https://github.com/saurabh1244/Help_Desk_Voice_Bot_Frontend.git)
 - **Backend Repository:** [Help Desk Voice Bot Backend](https://github.com/saurabh1244/Help_Desk_Voice_Bot_Assignment.git)
 
 ---
 
-##  Tech Stack & Architecture
+## 🛠️ Tech Stack & Architecture
 
 | Component | Technology | Role |
 |:---|:---|:---|
@@ -25,7 +27,7 @@ A full-stack voice AI assistant designed to modernize IT support. The bot handle
 
 ---
 
-##  Database Design & Best Practices
+## 🗄️ Database Design & Best Practices
 
 I prioritized **data integrity** over flexibility. Unlike NoSQL solutions, I used a relational schema with Prisma to enforce strict types, ensuring that partial or invalid tickets are never created.
 
@@ -52,7 +54,7 @@ model Ticket {
 
 ---
 
-##  Edge Cases & Implementation Strategy
+## 🧠 Edge Cases & Implementation Strategy
 
 Relying solely on an LLM for business processes is error-prone. I implemented specific programmatic logic to handle these failure points:
 
@@ -82,7 +84,7 @@ Relying solely on an LLM for business processes is error-prone. I implemented sp
 
 ---
 
-##  Business Rules (Fixed Fees)
+## 📋 Business Rules (Fixed Fees)
 
 The system enforces these exact service fees:
 
@@ -95,7 +97,7 @@ The system enforces these exact service fees:
 
 ---
 
-##  Local Setup
+## ⚙️ Local Setup
 
 To run this project locally, configure the `.env` files as follows:
 
@@ -117,7 +119,7 @@ SENDER_EMAIL=your_verified_sender_email
 
 ---
 
-## 👤 Developer
+## 👤 Author
 
 **Saurabh Chandra**
 
