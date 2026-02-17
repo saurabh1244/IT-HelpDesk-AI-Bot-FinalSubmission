@@ -4,6 +4,12 @@ A full-stack voice AI assistant designed to modernize IT support. The bot handle
 
 ![IT Help Desk Voice Bot Interface](screenshots/ss1.png)
 
+
+### 🎥 Project Demo
+Watch the full live demonstration of the Voice Bot in action:
+
+[**▶️ Click Here to Watch Video on Loom**](https://www.loom.com/share/2df96a85615c4666ada444bc0686b49b)
+
 ---
 
 ## 🔗 Project Links
